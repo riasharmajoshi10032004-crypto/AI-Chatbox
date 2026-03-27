@@ -15,7 +15,7 @@ const Answers = ({ ans, totalResult, index, type }) => {
     }
   }, [ans])
 
-  // 🔥 Markdown Code Renderer
+  
   const renderer = {
     code({ inline, className, children, ...props }) {
       const match = /language-(\w+)/.exec(className || "")
